@@ -1,0 +1,62 @@
+/* Font Properties */
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/* Color */
+h1 {
+    color: blue;
+}
+
+/* Alignment of Text */
+p {
+    text-align: justify;
+}
+
+/* Box Model */
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+/* Backgroud Images */
+.bg-image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    color: white;
+    padding: 20px;
+}
+
+/* <span> and <div> Tags  
+    We us the highlight 
+    class selector to show how to use inline divs
+*/
+.highlight {
+    background-color: rgb(178, 0, 210);
+}
+
+/* Conflict Resolution */
+.conflict {
+    background-color: blueviolet;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Resolving conflict with more 
+specificity using ID not CLASS */ 
+#specific-conflict {
+    background-color: #e74c3c;
+    border: 2px solid #c0392b;
+    padding: 10px;
+    margin: 10px;
+}
