@@ -8,7 +8,7 @@ body {
 
 /* Color */
 h1 {
-    color: blue;
+    color: rgb(156, 232, 85);
 }
 
 /* Alignment of Text */
@@ -21,7 +21,7 @@ p {
     width: 200px;
     height: 100px;
     padding: 20px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 255, 8);
     margin: 20px;
 }
 
@@ -51,12 +51,19 @@ p {
     padding: 10px;
     margin: 10px;
 }
-
-/* Resolving conflict with more 
-specificity using ID not CLASS */ 
-#specific-conflict {
-    background-color: #e74c3c;
-    border: 2px solid #c0392b;
+/* Conflicting styles follow a hierarchy */
+.conflict {
+    background-color: #e73cb9;
+    border: 2px solid #7e39ff;
     padding: 10px;
     margin: 10px;
 }
+
+
+.vtwo {
+    margin: 0.5rem;
+    background-color: #7754ff;
+    border: 2px solid #e73cb9;
+    border-color: aqua;
+}
+
